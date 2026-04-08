@@ -116,9 +116,9 @@ The feature branch must be at the same commit as the base branch so it can accum
 
 For each PR in the stack, build branches incrementally by cherry-picking from the original commits:
 
-1. Create the first stack branch from the base branch:
+1. Create the first stack branch from the feature branch (so it includes the placeholder commit):
    ```
-   git checkout <base>
+   git checkout <feature-branch>
    git checkout -b stack/<prefix>/01-<slug>
    git cherry-pick <commits-for-this-slice>
    ```
