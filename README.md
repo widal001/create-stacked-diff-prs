@@ -19,7 +19,7 @@ main <-- feature-branch (parent PR, closes the issue)
 ## Install
 
 ```bash
-npx skills add agile-six/skills/create-stacked-diff-prs
+npx skills add widal001/create-stacked-diff-prs
 ```
 
 Or manually copy `SKILL.md` to `.claude/skills/create-stacked-diff-prs/SKILL.md` in your project (or `~/.claude/skills/` for global use).
